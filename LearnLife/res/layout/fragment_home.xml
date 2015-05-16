@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:paddingLeft="@dimen/activity_horizontal_margin"
+ android:paddingRight="@dimen/activity_horizontal_margin"
+ tools:context=".MainActivity"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent" >
+ 
+
+<LinearLayout android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        android:background="#e5e5e5" >
+
+    <ImageView
+        android:id="@+id/about_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/about_logo" />
+
+    <TextView
+        android:id="@+id/FirstPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="The function of the securities market is to allow companies to raise capital from public (primary market) and to enable trading in the shares of public companies (secondary market). Securities and Exchange Board of India (SEBI) is a body set up by the Parliament in 1992 to protect investors, and to regulate and develop capital market. It started operations in 1988 through an order of Government of India. It is head quartered in Mumbai with regional offices in Delhi, Kolkata, Chennai and Ahmedabad."
+        android:textColor="@color/list_background"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/SecondPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Companies who want to raise capital (money) from public have to disclose their full details as per rules made by SEBI. Subsequently, these companies are required to publish information periodically for the benefit of the investors.  In case of take‐over of a company, the rules made by SEBI have to be followed so that the interest of shareholders of the company is protected."
+        android:textColor="@color/list_background"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/ThirdPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Buying and selling of shares takes place in the stock exchanges through stock brokers. These entities can function only if they have SEBI license. They are also required to follow rules laid down by SEBI, to protect the investors. Similarly SEBI also regulates other participants in the capital markets like, sub brokers, depositories,  depository participants, portfolio managers, merchant bankers, share transfer agents etc.    Mutual funds collect money from public under various schemes and invest in the market on behalf of investors and are also governed by rules formulated by SEBI."
+        android:textColor="@color/list_background"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/FourthPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Mutual Funds have to disclose details of the scheme, where they will invest money, the fees charged from the investor etc. They also have to make periodic disclosures for the benefit of investors as mandated by SEBI."
+        android:textColor="@color/list_background"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/FifthPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="SEBI  also  educates  investors,  facilitates redressal of  their  grievances  and  protects  them  by  introducing  consumer‐friendly disclosure norms from time to time."
+        android:textColor="@color/list_background"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/SebiLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="For more information please visit www.sebi.gov.in"
+        android:textColor="@color/list_background"
+        android:textSize="20sp"
+        android:autoLink="web" />
+
+</LinearLayout>
+
+</ScrollView>
