@@ -67,7 +67,7 @@ Link for Download of Android SDK (Latest): http://developer.android.com/sdk/inde
 Compiling the Source Code
 Here are step by step instructions to import and compile the application from the source code.
 
-STEP 1: IMPORT LearLife Package into Eclipse
+STEP 1: IMPORT LearnLife Package into Eclipse
 
 STEP 2: CHOOSE EXISTING ANDROID CODE INTO WORKSPACE
 
